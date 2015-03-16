@@ -3,7 +3,7 @@ package models;
 /**
  * Created by olexandra on 16.03.15.
  */
-public class Animal {
+public class Animal implements Questionnaries{
     private String name;
     private String maxAge;
     private String maxWait;
