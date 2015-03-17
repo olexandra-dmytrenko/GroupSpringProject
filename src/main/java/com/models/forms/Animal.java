@@ -1,9 +1,7 @@
-package models;
+package com.models.forms;
 
-/**
- * Created by olexandra on 16.03.15.
- */
-public class Animal implements Questionnaries{
+public class Animal implements Form {
+
     private String name;
     private String maxAge;
     private String maxWait;
