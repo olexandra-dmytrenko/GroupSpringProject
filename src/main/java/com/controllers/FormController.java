@@ -15,9 +15,9 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/form")
 public class FormController {
 
-    @Autowired
     private final FormService formService;
 
+    @Autowired
     public FormController(FormService formService) {
         this.formService = formService;
     }
