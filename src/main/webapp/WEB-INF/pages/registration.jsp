@@ -6,7 +6,7 @@
 <body>
 <h1>User Registration Form</h1>
 
-<form:form method="POST" name="userModel" action="http://localhost:8080/GroupSpringProject/form/registration/addForm/">
+<form:form method="POST" modelAttribute="userForm" action="http://localhost:8080/GroupSpringProject/form/registration/addForm/">
     <table>
         <tr>
             <td>Name :</td>
