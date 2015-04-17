@@ -29,4 +29,5 @@ public class Animal implements Form {
     public void setMaxWait(String maxWait) {
         this.maxWait = maxWait;
     }
-}
+
+    }

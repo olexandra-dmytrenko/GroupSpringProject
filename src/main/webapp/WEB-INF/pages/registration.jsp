@@ -4,7 +4,7 @@
     <title>Registration Form</title>
 </head>
 <body>
-<h1>User Registration Form</h1>
+<h1>User Question Form</h1>
 
 <form:form method="POST" modelAttribute="userForm" action="http://localhost:8080/GroupSpringProject/form/registration/addForm/">
     <table>

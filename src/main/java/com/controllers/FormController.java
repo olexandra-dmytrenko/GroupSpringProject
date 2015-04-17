@@ -11,13 +11,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-@Controller
 @RequestMapping("/form")
 public class FormController {
 
     private final FormService formService;
 
-    @Autowired
     public FormController(FormService formService) {
         this.formService = formService;
     }
@@ -30,7 +28,6 @@ public class FormController {
 
     @RequestMapping(value = "/registration/addForm", method = RequestMethod.POST)
     public String printWelcome(@ModelAttribute UserForm userModel, ModelMap model) {
-        System.out.println(userModel);
 
         return "registration";
     }
